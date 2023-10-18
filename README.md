@@ -13,22 +13,22 @@ Docker is an open platform for developing, shipping, and running applications. D
 Containers are packages of software that contain all of the necessary elements to run in any environment. In this way, containers virtualize the operating system and run anywhere, from a private data center to the public cloud or even on a developer's personal laptop.
 
 
-So, basically with containers we can access - and of course, also create images and do that - any aplication, system etc no matter it's OS, device.
+So, basically with containers we can access - and of course, also create images and do that - any application, system etc no matter it's OS, device.
 It's something, may I say, revolucionary, and big companies are already using it every day.
 
 
 ## Here some commands:
 
 - [x] docker run -p 8080:80 -v (volum) $/file -> run docker and save share you app to not lost data
-- [ ] docker-compose up -d -> docker-compose runs automatically all services
-- [ ] docker ps -> see info about containers (id, image, command, port...)
-- [ ] docker exec 'container name' ls -> list directories (inside container)
-- [ ] docker exec -it (interactivy mode) 'container name' bash -> get into container
-- [ ] cat index.html -> list html of nginx (or other, if it has)
-- [ ] rm -f index.html -> remove file
-- [ ] echo "hello world" > index.html -> create file
-- [ ] docker build -t 'dockerhubname'/'project-name':latest -> run build
-- [ ] docker push 'image-name' -> share image on dockerhub - allow others to experiment it.
+- [x] docker-compose up -d -> docker-compose runs automatically all services
+- [x] docker ps -> see info about containers (id, image, command, port...)
+- [x] docker exec 'container name' ls -> list directories (inside container)
+- [x] docker exec -it (interactivy mode) 'container name' bash -> get into container
+- [x] cat index.html -> list html of nginx (or other, if it has)
+- [x] rm -f index.html -> remove file
+- [x] echo "hello world" > index.html -> create file
+- [x] docker build -t 'dockerhubname'/'project-name':latest -> run build
+- [x] docker push 'image-name' -> share image on dockerhub - allow others to experiment it.
 
 ## 🔧 Versioning
 - [x] Version 1.0:
@@ -59,4 +59,5 @@ $ yarn start or npm start
 ## References: 
 
 docker: https://docs.docker.com/get-started/overview/
+<br>
 containers: https://cloud.google.com/learn/what-are-containers?hl=pt-br#:~:text=Containers%20are%20packages%20of%20software,on%20a%20developer's%20personal%20laptop.
