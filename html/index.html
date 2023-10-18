@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document docker, nginx</title>
+  </head>
+  <body>
+    <h1>Testing docker with nginx</h1>
+
+    <section>
+      <h3>some commands</h3>
+      <ol>
+        <li>
+          docker run -p 8080:80 -v (volum) $/file -> run docker and save share
+          you app to not lost data
+        </li>
+        <li>
+          docker-compose up -d -> docker-compose runs automatically all services
+        </li>
+        <li>
+          docker ps -> see info about containers (id, image, command, port...)
+        </li>
+        <li>
+          docker exec 'container name' ls -> list directories (inside container)
+        </li>
+        <li>
+          docker exec -it (interactivy mode) 'container name' bash -> get into
+          container
+        </li>
+        <li>cat index.html -> list html of nginx (or other, if it has)</li>
+        <li>rm -f index.html -> remove file</li>
+        <li>echo "hello world" > index.html -> create file</li>
+        <li>
+          docker build -t 'dockerhubname'/'project-name':latest -> run build
+        </li>
+        <li>
+          docker push 'image-name' -> share image on dockerhub - allow others to
+          experiment it.
+        </li>
+      </ol>
+    </section>
+
+    <p>Create your own image with Dockerfile</p>
+
+    <section>
+      <h4>docker-compose.yaml</h4>
+      <p>
+        If you need to run several services such as redis, rabbitmq, postgres
+        etc, you can create a docker-compose.yaml file to manage it all
+      </p>
+      <small
+        >see docs on
+        <a
+          href="https://github.com/marcusvinicius0/html-docker-test"
+          target="_blank"
+          rel="noopener noreferrer"
+          >https://github.com/marcusvinicius0/html-docker-test</a
+        ></small
+      >
+    </section>
+  </body>
+</html>
