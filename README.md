@@ -14,7 +14,7 @@ Containers are packages of software that contain all of the necessary elements t
 
 
 So, basically with containers we can access - and of course, also create images and do that - any application, system etc no matter it's OS, device.
-It's something, may I say, revolucionary, and big companies are already using it every day.
+It's something, may I say, revolutionary, and big companies are already using it every day.
 
 
 ## Here some commands:
